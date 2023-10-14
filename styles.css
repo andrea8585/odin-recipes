@@ -78,7 +78,7 @@ body {
 }
 
 .ingredients-list {
-    margin: 10px auto 10px; 
+    margin: 10px 0px 10px; 
     padding-left: 16px;   
 }
 
@@ -91,5 +91,9 @@ body {
 .steps {
     padding-left: 28px;
     padding-bottom: 10px;
+}
+
+.text {
+    width: 800px
 }
 
