@@ -1,7 +1,13 @@
 /* general */
 
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    background-color: rgb(149, 183, 172);
+    background-color: rgb(203, 203, 203);
 }
 
 .main-title {
@@ -10,19 +16,57 @@ body {
     font-weight: 700;
     color: #b74c4c;
     background-color: #a78cc0;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.page {
+    width: 1200px;
+    margin: auto;
+    border: 5px solid rgb(104, 141, 164);
+    padding: 20px;
+    background-color: rgb(202, 190, 190);;
+}
+
+.picture {
+    margin: 20px auto;
+    display: block;
+    width: 400px;
 }
 
 /* homepage */
+
+.homepage {
+    width: 1200px;
+    margin: auto;
+    border: 5px solid rgb(104, 141, 164);
+    padding: 20px;
+    background-color: rgb(202, 190, 190);;
+}
 
 .recipes-list {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 32px;
     font-weight: 400;
     color: rgb(6, 96, 15);
-    background-color: rgb(31, 177, 129);   
+    background-color: rgb(31, 177, 129);
+    margin-bottom: 0px;
+    width: 400px;
+    margin: 30px auto 10px; 
+    padding-left: 30px;   
+}
+
+.name {
+    margin: 10px 20px;
+    text-align: center;
+    
 }
 
 /* recipes */ 
+
+.recipe {
+    font-family: 'Courier New', Courier, monospace;
+}
 
 .description {
     font-family: Georgia, "Times New Roman", serif;
@@ -30,16 +74,22 @@ body {
     font-weight: 800;
     color: rgb(96, 6, 24);
     background-color: rgb(121, 121, 91);
+    margin-bottom: 20px;
 }
 
-.recipe {
-    font-family: 'Courier New', Courier, monospace;
+.ingredients-list {
+    margin: 10px auto 10px; 
+    padding-left: 16px;   
 }
 
 .paragraph {
     color: rgb(196, 61, 61);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .steps {
-    background-color: rgb(227, 227, 180);
+    padding-left: 28px;
+    padding-bottom: 10px;
 }
+
