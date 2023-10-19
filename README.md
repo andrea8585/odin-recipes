@@ -10,3 +10,9 @@ I practiced with:
 - images
 - unordered/ordered lists
 - links
+
+PICTURE CREDITS:
+- cooking.jpg; author: Oldmermaid; source: pixabay.com; license: free for use
+- carbonara.jpg; author: Engin Akyurt; source: pexels.com; license: free for use
+- amatriciana.jpg; author: pietrgiord; source: freeimages.com; license: free for use
+- cacio-e-pepe.jpg; author: CrafterChef; source: pixabay.com; license: free for use
